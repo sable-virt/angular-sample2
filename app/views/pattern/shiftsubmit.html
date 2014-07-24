@@ -1,0 +1,10 @@
+<h2>イベントフックパターン</h2>
+
+<form ng-submit="send(inputMessage)" id="message-form">
+    <textarea class="form-control" id="" cols="30" rows="10" ng-model="inputMessage" placeholder="(Shift+Enterキーで送信)" shift-submit="message-form"></textarea>
+    <p><input type="submit" class="btn btn-primary"/></p>
+</form>
+
+<ul class="list-group">
+    <li class="list-group-item" ng-repeat="message in messages">{{message.date | date : 'yyyy/MM/dd hh:mm:ss'}} - {{message.message}}</li>
+</ul>

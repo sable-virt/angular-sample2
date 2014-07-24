@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content=""/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- build:css css/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <link rel="stylesheet" href="css/jquery.powertip.css" />
+    <!-- endbuild -->
+    <!-- build:css css/common.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endbuild -->
+    <!-- build:js js/modernizr.min.js -->
+    <script src="lib/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body ng-app="app" ng-controller="RootCtrl">
+<div class="container">
+    <div class="row">
+        <sidebar class="col-xs-3"></sidebar>
+        <div class="col-xs-9" ng-view></div>
+    </div>
+    <copyright name="frontainer.com"></copyright>
+</div>
+
+<!-- build:js js/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<!-- endbower -->
+<script src="lib/jquery.powertip.js"></script>
+<!-- endbuild -->
+<!-- build:js js/common.js -->
+<script src="js/app.js"></script>
+<script src="js/controllers/RootCtrl.js"></script>
+<script src="js/controllers/PatternCtrl.js"></script>
+<script src="js/services/scope-template.js"></script>
+<script src="js/directives/sidebar.js"></script>
+<script src="js/directives/dummyText.js"></script>
+
+<script src="js/directives/copyright.js"></script>
+<script src="js/directives/selectList.js"></script>
+<script src="js/directives/tooltip.js"></script>
+<script src="js/directives/shiftSubmit.js"></script>
+
+<!-- endbuild -->
+</body>
+</html>

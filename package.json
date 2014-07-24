@@ -1,0 +1,41 @@
+{
+  "name": "Frontplate",
+  "version": "0.0.1",
+  "description": "個人的に利用しているWeb制作テンプレート",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^1.1.1",
+    "gulp": "^3.8.1",
+    "gulp-angular-templatecache": "^1.2.1",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-clean": "^0.3.1",
+    "gulp-htmlhint": "0.0.8",
+    "gulp-if": "^1.2.2",
+    "gulp-imagemin": "^0.6.1",
+    "gulp-jshint": "^1.6.3",
+    "gulp-karma": "0.0.4",
+    "gulp-load-plugins": "^0.5.2",
+    "gulp-minify-css": "^0.3.5",
+    "gulp-newer": "^0.3.0",
+    "gulp-ng-annotate": "^0.2.0",
+    "gulp-ngmin": "^0.3.0",
+    "gulp-plumber": "^0.6.3",
+    "gulp-sass": "^0.7.2",
+    "gulp-sprite-glue": "0.0.1",
+    "gulp-uglify": "^0.3.1",
+    "gulp-usemin": "^0.3.5",
+    "gulp-useref": "^0.5.0",
+    "jshint-stylish": "^0.2.0",
+    "karma": "^0.12.16",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "run-sequence": "^0.3.6",
+    "wiredep": "^1.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frontainer",
+  "license": "MIT"
+}
